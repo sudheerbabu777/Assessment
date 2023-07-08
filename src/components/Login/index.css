@@ -1,0 +1,165 @@
+.login-container {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    height: 100vh;
+}
+
+.login-page {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.board {
+    font-family: sans-serif;
+    font-size: 44px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.login-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60vw;
+    background-color: #ffffffe4;
+}
+
+.heading-container {
+    /* margin-right: 30px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin-bottom: 30px;
+}
+
+.sing-content {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #858181;
+    margin: 0px;
+    align-self: self-start;
+}
+
+.heading {
+    font-family: sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    color: #000;
+    align-self: self-start;
+    margin: 0px;
+}
+
+.button-account {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+button {
+    padding: 8px 8px;
+    border-radius: 18px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px;
+    width: 200px;
+    background-color: #fff;
+    outline: none;
+}
+
+i {
+    margin: 0px;
+    font-size: 18px;
+}
+
+label {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 12px;
+}
+
+form {
+    padding: 30px;
+    background-color: #e6e8e8fb;
+    border-radius: 15px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: 30px;
+    box-shadow: 1px 5px 3px #bfbfbf;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+input {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    padding: 12px;
+    width: 300px;
+    outline: none;
+    border: none;
+    background-color:#d7d4d4;
+    border-radius: 8px;
+}
+
+p{
+    align-self: flex-start;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5375fb;
+}
+
+.button{
+    padding: 8px 8px;
+    border-radius: 18px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #000;  
+}
+
+.button:active{
+    background-color: #5c7bf7;
+}
+
+.register{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #101011;
+    align-self: center;
+}
+
+span{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5c7bf7;
+}
+
